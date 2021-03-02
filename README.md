@@ -14,9 +14,11 @@ Current revision is based on the following components:
 ## Perforamnce
 The goal is to beat the following performance:
 > 320m^3/h (recommended for up to 106m^2) of air for ~100$ with 31-61dB(A)
+
 Simplifying this means you got 3m^3/h for each m^2 which means you are paying '~1$/m^2'.
 Our performance is the following:
 > 260m^3/h (according to Noctua specs) with up to 41dB(A) of noise
+
 Calculating the "optimal" m^2 for this device would be 86 m^2 which is still larger than I need, for around 1/3-rd of the cost.
 
 ## Cost
