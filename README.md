@@ -21,6 +21,8 @@ Our performance is the following:
 
 Calculating the "optimal" m^2 for this device would be 86 m^2 which is still larger than I need, for around 1/3-rd of the cost.
 
+This design is **2.59 times** more value ($/cleaned air) than the Xiaomi Air Purifier 3C.
+
 ## Cost
 The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 
@@ -29,3 +31,7 @@ The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 * `v2.0`: ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps
 * `v3.0`: ESP8266 with full IoT features inluding AWS integration and wireless access
 * `v4.0`: Mesh network of these devices with standalone air quality measurement point
+
+## Resources
+* [Noctua](https://noctua.at/en/nf-a14-industrialppc-24v-3000-q100-ip67-pwm)
+* [Air purifier tests](https://smartairfilters.com/en/blog/xiaomi-purifier-auto-mode-leaves-air-unsafe-86-hours/)
