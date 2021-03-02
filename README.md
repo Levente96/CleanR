@@ -25,7 +25,7 @@ Calculating the "optimal" m^2 for this device would be 86 m^2 which is still lar
 The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 
 ## Roadmap
-* 'v1.0': Simplest version, with no other optioans than plugged in and running, and poweroff state
-* 'v2.0': ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps
-* 'v3.0': ESP8266 with full IoT features inluding AWS integration and wireless access
-* 'v4.0': Mesh network of these devices with standalone air quality measurement point
+* `v1.0`: Simplest version, with no other optioans than plugged in and running, and poweroff state
+* `v2.0`: ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps
+* `v3.0`: ESP8266 with full IoT features inluding AWS integration and wireless access
+* `v4.0`: Mesh network of these devices with standalone air quality measurement point
