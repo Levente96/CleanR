@@ -35,3 +35,4 @@ The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 ## Resources
 * [Noctua](https://noctua.at/en/nf-a14-industrialppc-24v-3000-q100-ip67-pwm)
 * [Air purifier tests](https://smartairfilters.com/en/blog/xiaomi-purifier-auto-mode-leaves-air-unsafe-86-hours/)
+* [Noctua PWM white paper](https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf)
