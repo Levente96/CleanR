@@ -26,8 +26,18 @@ This design is **2.59 times** more value ($/cleaned air) than the Xiaomi Air Pur
 ## Cost
 The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 
+| Item | Cost |
+| ---- | ---: |
+| Fan  | 33$  |
+| Filter | 3$ |
+| DC Converter | 1$ |
+| Connector + cables | <1$|
+| 3D printed box | ~3$ |
+| **Total:** | 40$ |
+
+
 ## Roadmap
-* `v1.0`: Simplest version, with no other optioans than plugged in and running, and poweroff state
+* `v1.0`: Simplest version, with no other optioans than plugged in and running, and poweroff state :heavy_check_mark:
 * `v2.0`: ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps
 * `v3.0`: ESP8266 with full IoT features inluding AWS integration and wireless access
 * `v4.0`: Mesh network of these devices with standalone air quality measurement point
