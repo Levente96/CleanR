@@ -33,7 +33,7 @@ The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 | DC Converter | 1$ |
 | Connector + cables | <1$|
 | 3D printed box | ~3$ |
-| **Total:** | 40$ |
+| **Total:** | **40$** |
 
 
 ## Roadmap
