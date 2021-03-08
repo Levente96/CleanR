@@ -41,7 +41,7 @@ The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 ## Roadmap
 * `v1.0`: Simplest version, with no other optioans than plugged in and running, and poweroff state :heavy_check_mark:
 * `v2.0`: ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps :heavy_check_mark:
-* `v3.0`: ESP8266 with full IoT features inluding AWS integration and wireless access
+* `v3.0`: ~ESP8266 with full IoT features inluding AWS integration and wireless access~ basic web interface, OTA, redesign
 * `v4.0`: Mesh network of these devices with standalone air quality measurement point
 
 
