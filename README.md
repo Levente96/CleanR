@@ -33,7 +33,11 @@ The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
 | DC Converter | 1$ |
 | Connector + cables | <1$|
 | 3D printed box | ~3$ |
-| **Total:** | **40$** |
+| --- | --- |
+| ESP-01 | 1$ |
+| 1K ohm resistor| <1$ |
+| TIP122 | <1$ |
+| **Total:** | **42$** |
 
 
 > **Note:** The development environment only works in linux with legacy dependencies, use it on a virtualbox.
