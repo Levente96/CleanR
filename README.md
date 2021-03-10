@@ -11,6 +11,9 @@ Current revision is based on the following components:
 * USB-C power input
 * DC-DC step-up module
 
+## Assembly
+![schematic](https://raw.githubusercontent.com/Levente96/CleanR/main/resources/schematics/Schematic.png "Schematic")
+
 ## Perforamnce
 The goal is to beat the following performance:
 > 320m^3/h (recommended for up to 106m^2) of air for ~100$ with 31-61dB(A)
