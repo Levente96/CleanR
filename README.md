@@ -57,3 +57,4 @@ The goal of all time to keep the cost under ~100$. Currently it costs:
 * [Noctua PWM white paper](https://noctua.at/pub/media/wysiwyg/Noctua_PWM_specifications_white_paper.pdf)
 * [ESP Tool](https://github.com/espressif/esptool)
 * [Expressif FreeRTOS SDK](https://github.com/espressif/ESP8266_RTOS_SDK)
+* [Expressif IDF](https://github.com/espressif/esp-idf)
