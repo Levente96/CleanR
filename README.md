@@ -24,7 +24,7 @@ Calculating the "optimal" m^2 for this device would be 86 m^2 which is still lar
 This design is **2.59 times** more value ($/cleaned air) than the Xiaomi Air Purifier 3C.
 
 ## Cost
-The goal of all time to keep the cost under ~100$. Currently it costs ~35$.
+The goal of all time to keep the cost under ~100$. Currently it costs:
 
 | Item | Cost |
 | ---- | ---: |
