@@ -56,12 +56,23 @@ httpd_uri_t home = {
     .uri       = "/",
     .method    = HTTP_GET,
     .handler   = home_get_handler,
-    .user_ctx  = "<h1>CleanR</h1>\
-    		  <form action=\"/setup\" method=\"post\">	\
-  		  <label for=\"percent\">Set speed to(0-100):</label><br>	\
-		  <input type=\"number\" id=\"percent\" name=\"percent\" value=\"50\" min=\"0\" max=\"100\"><br> \
-		  <input type=\"submit\" value=\"Submit\">	\
-		  </form>"
+    .user_ctx  = "\
+    		  <html>\
+		  <head>\
+	          <title>CleanR 1.0</title>\
+		  </head>\
+		  <body style=\"font-family: Arial; background-color: #263238;\">\
+		  <center><h1 style=\"padding: 24pt; font-size: 96pt; font-family: Arial;color: #E1F5FE;\">Clean<span style=\"color: #039BE5;\">R</span></h1></center>\
+	          <form action=\"/setup\" method=\"post\">\
+		  <center>\
+		  <img src=\"https://www.freepnglogos.com/uploads/fan-png/fan-svg-png-icon-download-onlinewebfontsm-31.png\" width=\"128\" alt=\"fan svg png icon download onlinewebfontsm\" /></br>\
+		  <label style=\"font-size: 20pt; color: #E1F5FE;\" for=\"percent\">Set fan speed to:</br><span style=\"font-size:8pt; color: #607D8B; \">(0-100)</span></label><br>\
+		  <input style=\"color: #0277BD; font-weight: 900; background-color: #4b4b4b; border: none; text-align: center; font-size: 36pt; padding: 6pt; margin: 24pt;\" type=\"number\" id=\"percent\" name=\"percent\" value=\"50\" min=\"0\" max=\"100\"><br>\
+		  <input style=\"border-radius: 15px; background-color: #616161; color: #43A047; border: none; padding: 18pt; padding-top: 6pt; padding-bottom:6pt;  font-size: 24pt; margin: 6pt;\" type=\"submit\" value=\"Set\">\
+		  </center>\
+		  </form>\
+		  </body>\
+		  </html>"
 };
 
 esp_err_t setup_post_handler(httpd_req_t *req)
@@ -90,11 +101,8 @@ esp_err_t setup_post_handler(httpd_req_t *req)
     }
 
      const char resp[] = "<head> \
-			   <meta http-equiv=\"refresh\" content=\"5; URL=/\" />	\
-			   </head> \
-			   <body>	\
-  			   <p>If you are not redirected in five seconds, <a href=\"/\">click here</a>.</p>	\
-		           </body>";
+			   <meta http-equiv=\"refresh\" content=\"1; URL=/\" />	\
+			   </head>";
     httpd_resp_send(req, resp, strlen(resp));
     return ESP_OK;
 }
