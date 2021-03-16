@@ -50,6 +50,7 @@ The goal of all time to keep the cost under ~100$. Currently it costs:
 * `v3.0`: ~ESP8266 with full IoT features inluding AWS integration and wireless access~ basic web interface, OTA, redesign
 * `v4.0`: Mesh network of these devices with standalone air quality measurement point
 
+---
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=T5EL5GCBGGAE6)
 
 ## Resources
