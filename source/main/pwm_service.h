@@ -18,8 +18,8 @@
 
 #include "driver/pwm.h"
 
-#define PWM_FAN_OUT_IO_NUM   2
-#define PWM_PERIOD_US             46
+#define PWM_FAN_OUT_IO_NUM         2
+#define PWM_PERIOD_US                    46
 
 extern const uint32_t pwm_pin_num[];
 extern uint32_t pwm_duty_cycle_us[];

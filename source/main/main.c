@@ -18,6 +18,7 @@
 
 #include <esp_http_server.h>
 #include "pwm_service.h"
+#include "cleanr_ota_service.h"
 
 static const char *TAG="CleanR";
 
@@ -104,7 +105,7 @@ esp_err_t setup_post_handler(httpd_req_t *req)
         }
 		httpd_resp_send_chunk(req, buf, ret);
         ESP_LOGI(TAG, "=========== RECEIVED DATA ==========");
-		uint8_t fspeed = char2int(buf, 100)/100;
+		uint8_t fspeed = char2int(buf, 100);
 		pwm_set_fan_speed(fspeed);
 		ESP_LOGI(TAG, "Set fan to: %d", fspeed);
         ESP_LOGI(TAG, "====================================");
@@ -169,9 +170,15 @@ void app_main()
 
 	pwm_init_service();
     ESP_ERROR_CHECK(example_connect());
+	
+	xTaskCreate(&simple_ota_example_task, "ota_task", 8192, NULL, 5, NULL);
 
     ESP_ERROR_CHECK(esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &connect_handler, &server));
     ESP_ERROR_CHECK(esp_event_handler_register(WIFI_EVENT, WIFI_EVENT_STA_DISCONNECTED, &disconnect_handler, &server));
 
     server = start_webserver();
+	
+	
+
+    
 }
