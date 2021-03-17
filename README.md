@@ -47,11 +47,8 @@ The goal of all time to keep the cost under ~100$. Currently it costs:
 ## Roadmap
 * `v1.0`: Simplest version, with no other optioans than plugged in and running, and poweroff state :heavy_check_mark:
 * `v2.0`: ESP8266 built-in for controlling the fan-speed according to preprogrammed timestamps :heavy_check_mark:
-* `v3.0`: ~ESP8266 with full IoT features inluding AWS integration and wireless access~ basic web interface, OTA, redesign
+* `v3.0`: ~ESP8266 with full IoT features inluding AWS integration and wireless access~ basic web interface :heavy_check_mark: , OTA, redesign
 * `v4.0`: Mesh network of these devices with standalone air quality measurement point
-
----
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=T5EL5GCBGGAE6)
 
 ## Resources
 * [Noctua](https://noctua.at/en/nf-a14-industrialppc-24v-3000-q100-ip67-pwm)
@@ -60,3 +57,6 @@ The goal of all time to keep the cost under ~100$. Currently it costs:
 * [ESP Tool](https://github.com/espressif/esptool)
 * [Expressif FreeRTOS SDK](https://github.com/espressif/ESP8266_RTOS_SDK)
 * [Expressif IDF](https://github.com/espressif/esp-idf)
+
+---
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=T5EL5GCBGGAE6)
