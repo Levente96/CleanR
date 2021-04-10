@@ -13,6 +13,8 @@ Current revision is based on the following components:
 
 ## Assembly
 ![schematic](https://raw.githubusercontent.com/Levente96/CleanR/main/resources/schematics/Schematic.png "Schematic")
+For the filter, I found an [alternative](https://www.aliexpress.com/item/32861099829.html), which you should cut in half (alongside the longer side), so the filter will be 145mm "tall".
+I have also attached strigs from the bottom to the fan's bottom screws to load the bottom up to the filer when lifted.
 
 ## Perforamnce
 The goal is to beat the following performance:
