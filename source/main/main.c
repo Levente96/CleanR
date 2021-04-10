@@ -171,7 +171,7 @@ void app_main()
 	pwm_init_service();
     ESP_ERROR_CHECK(example_connect());
 	
-	xTaskCreate(&simple_ota_example_task, "ota_task", 8192, NULL, 5, NULL);
+	xTaskCreate(&ota_task, "ota_task", 8192, NULL, 5, NULL);
 
     ESP_ERROR_CHECK(esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &connect_handler, &server));
     ESP_ERROR_CHECK(esp_event_handler_register(WIFI_EVENT, WIFI_EVENT_STA_DISCONNECTED, &disconnect_handler, &server));

@@ -31,7 +31,7 @@ esp_err_t _http_event_handler(esp_http_client_event_t *evt)
     return ESP_OK;
 }
 
-void simple_ota_example_task(void * pvParameter)
+void ota_task(void * pvParameter)
 {
     ESP_LOGI("OTA", "Starting OTA example...");
 
