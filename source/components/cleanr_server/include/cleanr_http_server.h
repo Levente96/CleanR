@@ -12,33 +12,16 @@
 #include "esp_err.h"
 #include <esp_http_server.h>
 
+#include "pwm_service.h"
+
 extern const uint8_t server_index_html_start[] asm("_binary_index_html_start");
 extern const uint8_t server_index_html_end[] asm("_binary_index_html_end");
 
-// TODO: Move to unified location
-static const char *TAG="CleanR";
-
-static httpd_handle_t server = NULL;
-
 esp_err_t home_get_handler(httpd_req_t *req);
-
-static httpd_uri_t home = {
-    .uri       = "/",
-    .method    = HTTP_GET,
-    .handler   = home_get_handler,
-    .user_ctx  = (char *)server_index_html_start
-};
 
 int char2int (char *array, size_t n);
 
 esp_err_t setup_post_handler(httpd_req_t *req);
-
-static httpd_uri_t setup = {
-    .uri       = "/setup",
-    .method    = HTTP_POST,
-    .handler   = setup_post_handler,
-    .user_ctx  = NULL
-};
 
 httpd_handle_t start_webserver(void);
 

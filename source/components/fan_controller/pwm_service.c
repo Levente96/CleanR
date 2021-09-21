@@ -1,9 +1,9 @@
 #include "pwm_service.h"
 
-const uint32_t pwm_pin_num[1] = { PWM_FAN_OUT_IO_NUM };
-uint32_t pwm_duty_cycle_us[1] = { 23 };
-float pwm_phase_shift[1] = { 0 };
-uint8_t pwm_fan_speed = 0;
+const uint32_t pwm_pin_num[1] 		= { PWM_FAN_OUT_IO_NUM };
+uint32_t 	   pwm_duty_cycle_us[1] = { 23 };
+float 	 	   pwm_phase_shift[1]   = { 0 };
+uint8_t 	   pwm_fan_speed 		= 0;
 
 void pwm_init_service()
 {

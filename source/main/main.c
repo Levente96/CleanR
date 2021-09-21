@@ -14,8 +14,7 @@
 #include "cleanr_http_server.h"
 #include "cleanr_ota_service.h"
 
-
-
+httpd_handle_t server = NULL;
 
 void app_main()
 {
