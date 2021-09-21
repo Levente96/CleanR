@@ -1,1 +1,1 @@
-COMPONENT_EMBED_TXTFILES := ${PROJECT_PATH}/resources/ca_cert.pem
+COMPONENT_EMBED_TXTFILES := ${PROJECT_PATH}/resources/index.html

@@ -2,7 +2,8 @@
     "files.associations": {
         "esp_system.h": "c",
         "queue.h": "c",
-        "task.h": "c"
+        "task.h": "c",
+        "cleanr_http_server.h": "c"
     },
     "cmake.configureOnOpen": false
 }
