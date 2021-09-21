@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "esp_system.h": "c",
+        "queue.h": "c",
+        "task.h": "c"
+    },
+    "cmake.configureOnOpen": false
+}
